@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
+import Menu from './components/MenuComponent';
 import './App.css';
 
 
@@ -11,6 +12,7 @@ function App() {
           <NavbarBrand href="/">Khyati Khanduja</NavbarBrand>
         </div>
       </Navbar>
+      <Menu />
     </div>
   );
 }
